@@ -1,30 +1,26 @@
 #AEM Training 
 
-Des TPs avec leurs codes sources, pour la prise en main d'AEM.
+Getting started with AEM
 ------------------
 
-Je vous propose, une série des pratiques, qui vous permet de monter en compétence, sur la plateforme AEM rapidement 
+I propose a series of practical exercises that will allow you to quickly gain expertise on the AEM platform. Each practical exercise is presented with a Git branch
 
-Chaque TP, est presenté par une branche git 
-
-Exemple :
+Example:
 ---------
 git checkout tp1
 
-Vous trouverez sur chaque TP un readme, qui presente la pratique, qu’on va essayer d'apprendre 
+You will find a README on each practical exercise, which presents the practice we will try to learn.
 
-
-
-[TP1 = Architecture & Définition](https://github.com/yelouardi/aem-training/tree/tp1)
+[TP1 = Architecture & Definition](https://github.com/indranim/aem-training/tree/tp1)
 -------------------------------
-[TP2 = Création d'un projet AEM from scratch](https://github.com/yelouardi/aem-training/tree/tp2)
+[TP2 = Creating an AEM project from scratch](https://github.com/indranim/aem-training/tree/tp2)
 ------------------------------
-[TP3 = Templating AEM](https://github.com/yelouardi/aem-training/tree/tp3)
+[TP3 = AEM Templating](https://github.com/indranim/aem-training/tree/tp3)
 --------------------
-[TP4 = Composants AEM](https://github.com/yelouardi/aem-training/tree/tp4)
+[TP4 = AEM Components](https://github.com/indranim/aem-training/tree/tp4)
 --------------------
-[TP5 = AEM WCMUse](https://github.com/yelouardi/aem-training/tree/tp5)
+[TP5 = AEM WCMUse](https://github.com/indranim/aem-training/tree/tp5)
 --------------------
-[TP6 = AEM SLING MODEL](https://github.com/yelouardi/aem-training/tree/tp6)
+[TP6 = AEM SLING MODEL](https://github.com/indranimi/aem-training/tree/tp6)
 --------------------
 Good Learning 
