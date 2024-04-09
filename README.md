@@ -1,6 +1,8 @@
 ### AEM Training TP1
 ## Architecture
-##### Granit
+
+https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-architecture
+##### Granite
 
 AEM is composed of a series of Open Source Frameworks such as:
 
@@ -17,31 +19,38 @@ Sling maps HTTP request URLs to content resources based on the path, extension, 
 https://sling.apache.org/documentation/tutorials-how-tos.html
 https://sling.apache.org/docs/ApacheConEU08_JCR_Meetup_Sling_Architecture.pdf
 
-JCR
-Content management: Java Content Repository, also known as JSR 283 (formerly known as JSR 170).
-Java Content Repository is a semi-structured data storage space in the form of a tree of nodes. Each item is either a node or a property. A property stores information (name and associated value), while a node structures the content.
-Java Content Repository Presentation
+JCR 
+-----
+- Content management: Java Content Repository, also known as JSR 283 (formerly known as JSR 170).
+- Java Content Repository is a semi-structured data storage space in the form of a tree of nodes. Each item is either a node or a property. A property stores information (name and associated value), while a node structures the content.
+- Java Content Repository Presentation
 
-Apache Jackrabbit Oak
+Apache Jackrabbit Oak 
+-----------------------
 As an implementation of JCR. Previous versions, up to version 5.6, used Adobe CRX. Oak and CRX provide an API for easier interaction with JCR.
 Java Content Repository with Jackrabbit Presentation
 
 OSGI
-A Java platform for installing, starting, and modifying code components, called "bundles," on the fly, i.e., without restarting the server.
-An OSGI solution brings numerous benefits:
-Code becomes easier to write and test due to componentization.
-Component reuse is improved (ease of use).
-Bundle deployments are straightforward (standardized Zip files to install via an administration console).
-Bugs are detected earlier.
-The OSGI engine allows you to see in real-time which components are active and visualize dependencies between them.
-OSGI Tutorial
+----
+- A Java platform for installing, starting, and modifying code components, called "bundles," on the fly, i.e., without restarting the server.
+- An OSGI solution brings numerous benefits:
+- Code becomes easier to write and test due to componentization.
+- Component reuse is improved (ease of use).
+- Bundle deployments are straightforward (standardized Zip files to install via an administration console).
+- Bugs are detected earlier.
+- The OSGI engine allows you to see in real-time which components are active and visualize dependencies between them.
+
+**OSGI Tutorial** --https://www.vogella.com/tutorials/OSGi/article.html
 
 Apache Felix
+--------------
 An implementation of the OSGI platform providing an administration console and an API for easily creating OSGI bundles and interacting with deployed code (concepts of servlets, services, etc.).
-Adobe Meetup AEM Architecture Presentation
+[Adobe Meetup AEM Architecture Presentation](https://felix.apache.org/documentation/tutorials-examples-and-presentations/apache-felix-osgi-tutorial.html)
 
 Environments
+============
 Author
+------------
 These interact to enable you to make the content available on your website so that your visitors can read it.
 
 The authoring environment provides mechanisms for creating, updating, and revising this content before publishing it:
@@ -49,9 +58,11 @@ The authoring environment provides mechanisms for creating, updating, and revisi
 An author creates and reviews the content (which can be of various types, such as pages, items, posts, etc.) that will be published on your website at some point.
 
 Publish
+------------
 For the publishing environment, you design all aspects of the interface made available to your users.
 
 Dispatcher
+---------------
 To optimize the performance of visitors to your website, the dispatcher implements load balancing and caching.
 
 Adobe Experience Manager Authoring Documentation
