@@ -1,21 +1,21 @@
-AEM Training TP1
-Architecture
-Granit
+### AEM Training TP1
+## Architecture
+##### Granit
 
 AEM is composed of a series of Open Source Frameworks such as:
 
 Apache Sling
 A framework for RESTful web applications based on an extensible content tree.
 Sling maps HTTP request URLs to content resources based on the path, extension, and selectors of the request.
-Principles of a RESTful Web architecture include:
-Resource-oriented: every piece of information such as a label, news item, product description, file, or image, for example, is a resource ("everything is content").
-Resources are addressable and accessible via REST through the HTTP protocol. Each resource has a specific URI.
-REST is a standardized protocol; one simply uses provided methods like GET, POST, PUT, or DELETE to interact with content.
-Representation-oriented: an object is referenced by a unique URI but may have different available representation formats. For example, an AJAX request demands JSON, a Java application requests XML, a web browser wants HTML. To address this, different representation and rendering services can be created for each type of resource.
-Stateless communication: REST itself is stateless; it does not use cookies, and clients must re-authenticate with each request.
-Apache Sling Documentation
+ - Principles of a RESTful Web architecture include:
+ - Resource-oriented: every piece of information such as a label, news item, product description, file, or image, for example, is a resource ("everything is content").
+ - Resources are addressable and accessible via REST through the HTTP protocol. Each resource has a specific URI.
+ - REST is a standardized protocol; one simply uses provided methods like GET, POST, PUT, or DELETE to interact with content.
+ - Representation-oriented: an object is referenced by a unique URI but may have different available representation formats. For example, an AJAX request demands JSON, a Java application requests XML, a web browser wants HTML. To address this, different representation and rendering services can be created for each type of resource.
+ - Stateless communication: REST itself is stateless; it does not use cookies, and clients must re-authenticate with each request.
 
-Apache Sling Architecture
+https://sling.apache.org/documentation/tutorials-how-tos.html
+https://sling.apache.org/docs/ApacheConEU08_JCR_Meetup_Sling_Architecture.pdf
 
 JCR
 Content management: Java Content Repository, also known as JSR 283 (formerly known as JSR 170).
