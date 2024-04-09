@@ -1,41 +1,59 @@
 AEM Training TP1
 Architecture
+Granit
+
+AEM is composed of a series of Open Source Frameworks such as:
 
 Apache Sling
-Apache Sling is a framework for RESTful web applications based on an extensible content tree. Sling maps HTTP request URLs to content resources based on the path, extension, and request selectors. The principles of a RESTful web architecture are:
+A framework for RESTful web applications based on an extensible content tree.
+Sling maps HTTP request URLs to content resources based on the path, extension, and selectors of the request.
+Principles of a RESTful Web architecture include:
+Resource-oriented: every piece of information such as a label, news item, product description, file, or image, for example, is a resource ("everything is content").
+Resources are addressable and accessible via REST through the HTTP protocol. Each resource has a specific URI.
+REST is a standardized protocol; one simply uses provided methods like GET, POST, PUT, or DELETE to interact with content.
+Representation-oriented: an object is referenced by a unique URI but may have different available representation formats. For example, an AJAX request demands JSON, a Java application requests XML, a web browser wants HTML. To address this, different representation and rendering services can be created for each type of resource.
+Stateless communication: REST itself is stateless; it does not use cookies, and clients must re-authenticate with each request.
+Apache Sling Documentation
 
-Resource-oriented: Every piece of information, such as a label, news item, product description, file, or image, is considered a resource ("everything is content").
-Resources are addressable and accessible via HTTP using the REST protocol. Each resource has a specific URI.
-REST is a standardized protocol. It simply uses methods like GET, POST, PUT, or DELETE to interact with content.
-Representation-oriented: An object is referenced by a unique URI but can have different representation formats available. For example, an AJAX request demands JSON, a Java application requires XML, and a web browser wants HTML. To address this, different representation and rendering services can be created for each type of resource.
-Stateless communication: REST itself is stateless, it does not use cookies, and clients must re-authenticate for each request.
+Apache Sling Architecture
+
 JCR
-Java Content Repository (JCR) is an API for a standard document repository also known as JSR 283 (formerly known as JSR 170). It is a semi-structured data storage space in the form of a tree of nodes. Each item is either a node or a property. A property stores information (name and associated value), while a node structures the content.
+Content management: Java Content Repository, also known as JSR 283 (formerly known as JSR 170).
+Java Content Repository is a semi-structured data storage space in the form of a tree of nodes. Each item is either a node or a property. A property stores information (name and associated value), while a node structures the content.
+Java Content Repository Presentation
 
 Apache Jackrabbit Oak
-Apache Jackrabbit Oak serves as an implementation of JCR. Previous versions, up to version 5.6, used Adobe CRX. Oak and CRX provide an API to interact more easily with JCR.
+As an implementation of JCR. Previous versions, up to version 5.6, used Adobe CRX. Oak and CRX provide an API for easier interaction with JCR.
+Java Content Repository with Jackrabbit Presentation
 
 OSGI
-OSGI is a Java platform that allows the installation, starting, and modification of code components, called "bundles," on the fly, without restarting the server. OSGI offers several benefits:
+A Java platform for installing, starting, and modifying code components, called "bundles," on the fly, i.e., without restarting the server.
+An OSGI solution brings numerous benefits:
+Code becomes easier to write and test due to componentization.
+Component reuse is improved (ease of use).
+Bundle deployments are straightforward (standardized Zip files to install via an administration console).
+Bugs are detected earlier.
+The OSGI engine allows you to see in real-time which components are active and visualize dependencies between them.
+OSGI Tutorial
+
+Apache Felix
+An implementation of the OSGI platform providing an administration console and an API for easily creating OSGI bundles and interacting with deployed code (concepts of servlets, services, etc.).
+Adobe Meetup AEM Architecture Presentation
 
 Environments
-
 Author
-
-These interact to enable you to make content available on your website so that your visitors can read it.
+These interact to enable you to make the content available on your website so that your visitors can read it.
 
 The authoring environment provides mechanisms for creating, updating, and revising this content before publishing it:
 
 An author creates and reviews the content (which can be of various types, such as pages, items, posts, etc.) that will be published on your website at some point.
 
 Publish
-
 For the publishing environment, you design all aspects of the interface made available to your users.
 
 Dispatcher
-
 To optimize the performance of visitors to your website, the dispatcher implements load balancing and caching.
 
-Link to Adobe Experience Manager Documentation
+Adobe Experience Manager Authoring Documentation
 
 Good Learning
