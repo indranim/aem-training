@@ -5,7 +5,7 @@ https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-servic
 ##### Granite
 AEM three major layers and three core technology architecture diagram
 
-![在这里插入图片描述](https://github.com/indranim/aem-training/blob/tp1/AEM_Arch.jpg)
+![AEM Architecture](https://github.com/indranim/aem-training/blob/tp1/AEM_Arch.jpg)
 
 
 AEM is composed of a series of Open Source Frameworks such as:
@@ -90,7 +90,7 @@ Adobe Experience Manager Authoring Documentation
 
 https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-author-publish
 
-#### 3.2 AEM Core Concepts
+####  AEM Core Concepts
    + Author instance
      Typically, for security, governance, and other reasons, a production site will divide instances of AEM into Author and Publish instances. For more information on deployment architecture (including Author/Publish instances), see documentation about AEM Instances.
 	
