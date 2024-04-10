@@ -4,7 +4,8 @@
 https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-architecture
 ##### Granite
 AEM three major layers and three core technology architecture diagram
- - https://github.com/indranim/aem-training/blob/tp1/AEM_Arch.jpg
+
+ - !(https://github.com/indranim/aem-training/blob/tp1/AEM_Arch.jpg)
  - ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191107161210499.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NvZGluZ0Jsb2c=,size_16,color_FFFFFF,t_70)
 AEM is composed of a series of Open Source Frameworks such as:
 
