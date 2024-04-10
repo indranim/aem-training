@@ -23,6 +23,17 @@ Sling maps HTTP request URLs to content resources based on the path, extension, 
 https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-sling
 https://sling.apache.org/documentation/tutorials-how-tos.html
 https://sling.apache.org/docs/ApacheConEU08_JCR_Meetup_Sling_Architecture.pdf
+Apache Sling :: Servlet Resolution
+			 [https://sling.apache.org/old-stuff/servlet-resolution.html](https://sling.apache.org/old-stuff/servlet-resolution.html)
+			Apache Sling :: URL decomposition
+			 [http://sling.apache.org/documentation/the-sling-engine/url-decomposition.html](http://sling.apache.org/documentation/the-sling-engine/url-decomposition.html)
+			Apache Sling :: HTL Scripting
+			 [https://sling.apache.org/documentation/bundles/scripting/scripting-htl.html](https://sling.apache.org/documentation/bundles/scripting/scripting-htl.html)
+			Apache Sling :: Sling Models
+			 [https://sling.apache.org/documentation/bundles/models.html#specifying-an-alternate-adapter-class-     since-110](https://sling.apache.org/documentation/bundles/models.html#specifying-an-alternate-adapter-class-%20%20%20%20%20since-110)
+			bibliography:
+			 [Continuous Delivery of Apache Sling Applications](https://github.com/tobywang11030/mangoCMS/blob/master/Continuous%20Delivery%20of%20Apache%20Sling%20Applications.pdf)
+			 [Server-side OSGi with Apache Sling](https://github.com/tobywang11030/mangoCMS/blob/master/Server-side%20OSGi%20with%20Apache%20Sling.pdf)
 
 JCR 
 -----
