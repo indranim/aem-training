@@ -82,13 +82,15 @@ Publish
 ------------
 For the publishing environment, you design all aspects of the interface made available to your users.
 
+https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-author-publish
+
 Dispatcher
 ---------------
 To optimize the performance of visitors to your website, the dispatcher implements load balancing and caching.
 
 Adobe Experience Manager Authoring Documentation
 
-https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-author-publish
+https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-dispatcher
 
 ####  AEM Core Concepts
    + Author instance
