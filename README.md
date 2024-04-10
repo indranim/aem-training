@@ -32,6 +32,7 @@ Apache Jackrabbit Oak
 As an implementation of JCR. Previous versions, up to version 5.6, used Adobe CRX. Oak and CRX provide an API for easier interaction with JCR.
 Java Content Repository with Jackrabbit Presentation
 https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/introduction/platform
+
 https://jackrabbit.apache.org/oak/docs/
 
 OSGI
