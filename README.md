@@ -2,7 +2,7 @@
 ## Architecture
 
 https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-architecture
-##### Granite
+
 AEM three major layers and three core technology architecture diagram
 
 ![AEM Architecture](https://github.com/indranim/aem-training/blob/tp1/AEM_Arch.jpg)
@@ -33,7 +33,8 @@ Apache Sling :: Servlet Resolution
 			Apache Sling :: Sling Models
 			 [https://sling.apache.org/documentation/bundles/models.html#specifying-an-alternate-adapter-class-     since-110](https://sling.apache.org/documentation/bundles/models.html#specifying-an-alternate-adapter-class-%20%20%20%20%20since-110)
 		
-
+Some more linkss to under Sling Resolution
+https://adapt.to/2012/presentations/adaptto2012-apache-sling-basic-concepts-rainer-bartl-peter-mannel.pdf
 JCR 
 -----
 - Content management: Java Content Repository, also known as JSR 283 (formerly known as JSR 170).
