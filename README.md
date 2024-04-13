@@ -11,6 +11,7 @@ AEM three major layers and three core technology architecture diagram
 AEM is composed of a series of Open Source Frameworks such as:
 
 Apache Sling
+--------------
 A framework for RESTful web applications based on an extensible content tree.
 Sling maps HTTP request URLs to content resources based on the path, extension, and selectors of the request.
  - Principles of a RESTful Web architecture include:
