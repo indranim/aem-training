@@ -1,10 +1,10 @@
-#AEM Training TP2
+## AEM Training TP2
 
 ## System Requirements
 
-WKND Version | AEM as a Cloud Service | AEM 6.5       | Java SE | Maven
--------------|------------------------|---------------|---------|---------
-Latest (main branch)| Continual              | **6.5.17.0+** |  8, 11  | 3.3.9+
+ AEM 6.5       | Java SE | Maven
+  -------------|---------|----------
+ **6.5.17.0+** |  8, 11  | 3.3.9+
 
 # Creation of the new project 6.5
 
@@ -29,12 +29,6 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
  -D appId="mysite" \
  -D groupId="com.mysite"
 ```
-
-## System Requirements
-
-Archetype | AEM 6.5 | Java SE | Maven
----------|---------|---------|---------|---------
-[48](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-48) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+
 
 ## Modules
 
@@ -93,4 +87,4 @@ The project comes with the auto-public repository configured. To setup the repos
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
  ##  AEM Build command structure explanation
- ![AEM Maven Build LifeCycle](https://github.com/indranim/aem-training/tree/tp2/maven-build.jpg)       
+ ![AEM Maven Build LifeCycle](https://github.com/indranim/aem-training/blob/tp2/maven-build.jpg)       
