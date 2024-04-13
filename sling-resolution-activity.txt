@@ -1,0 +1,10 @@
+Open http://localhost:4502/crx/de
+Create a nt:unstructured node under /content named welcome
+Create property sling:resourceType and provide a String Value "training/content-page"
+Open the browser and type http://localhost:4502/content/training.html  
+The best match here is content-page
+Create another file under the "training/content-page/mob.html"
+Open the browser type http://localhost:4502/content/training.mob.html 
+
+Excercise Create right script under  which should render file Tablet
+http://localhost:4502/content/training.tablet.html 
